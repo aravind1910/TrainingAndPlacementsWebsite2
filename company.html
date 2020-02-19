@@ -1,0 +1,145 @@
+<html>
+    <head>
+
+        <title>17L31A0594 Login</title>
+        <style>
+            .header {
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            }
+            p {
+                font-size: large;
+                border: 1px;
+                border-radius: 5px;
+            } 
+            .tab {
+                border-right: solid 2px blue;
+                border-left: solid 2px blue; 
+                border-bottom: solid 2px blue;
+                display: inline-block;
+                text-align: center;
+                width: 24%;
+                text-decoration: none;
+                margin: 1px 0px 1px 0px;
+                font-weight: bolder;
+                font-size:large;
+                color:blue;
+                border-radius: 3px;
+            }
+            .tab:hover {
+                background-color: dodgerblue;
+                transition: 0.2s ease-in;
+                border-radius: 3px;
+            }
+            td {
+                padding-right: 15px;
+                
+            }
+        </style>
+        
+    </head>
+    <body>
+        <img class="header" src="https://bit.ly/2SJ59PY" height="100">
+        <hr><hr>
+        <div>
+            <a class="tab" href="homepage.html">Home</a>
+            <a class="tab" href="login.html">Login</a>
+            <a class="tab" href="registration.html">Registration</a>
+            
+            <a class="tab" href="alumni.html">Alumni</a>
+            
+            <a class="tab" href="placements.html">Placements Staff</a>
+            <a class="tab" href="student.html">Student Personal Info</a>
+            <a class="tab" href="academic.html">Student Academic Info</a>
+            <a class="tab" href="percentage.html">Semester and Aggregate Percentage</a>
+            </div>
+        <div style="margin:auto;width:90%;">
+            <div>
+                <img src="https://bit.ly/2w6SrRL" height="120" width="150" style="float:left; margin-right: 20px;">
+                <p >
+                    <br>
+                    <br>
+                    Infosys Limited is an Indian multinational corporation that provides business consulting, information technology and outsourcing services. It has its headquarters in Bangalore, Karnataka, India.
+                </p>
+                <p><b>
+                    Package: 5 Lakh per Annum
+                </b></p>
+                <input type="button" value="Students Placed in Infosys" onclick="return appear(1)">
+                <table id="inf" style="visibility: hidden;">
+                    <tr>
+                        <td>💠Snow White Guntuka</td>
+                        <td>💠Rahul Chekuri</td>
+                        <td>💠Pranay Verma Cherukuri</td>
+                    </tr>
+                    <tr>
+                        <td>💠Manasa Duri</td>
+                        <td>💠Teja Swaroop Moida</td>
+                        <td>💠Ron Seela</td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <div>
+                <img src="https://bit.ly/2OO0yJA" height="120" width="150" style="float:left; margin-right: 20px;">
+                <p >
+                    <br>
+                    <br>
+                    Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington. It develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.
+                </p>
+                <p><b>
+                    Package: 12 Lakh per Annum
+                </b></p>
+                <input type="button" value="Students Placed in Microsoft" onclick="appear(2)">
+                <table id="mic" style="visibility: hidden;">
+                    <tr>
+                        <td>💠Romeo Siriki</td>
+                        <td>💠Caeser Chintada</td>
+                        <td>💠Diana Kolusu</td>
+                    </tr>
+                    <tr>
+                        <td>💠Cleopatra Gullipalli</td>
+                        <td>💠Elsa Sreepada</td>
+                        <td>💠Cassandra Priyanjana</td>
+                    </tr>
+                </table>
+            </div>
+            <div >
+                <img src="https://bit.ly/2SW2YHn" height="120" width="150" style="float:left; margin-right: 20px;">
+                <p >
+                    <br>
+                    <br>
+                    Amazon.com, Inc., is an American multinational technology company based in Seattle that focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is considered one of the Big Four tech companies, along with Google, Apple, and Facebook.
+                </p>
+                <p><b>
+                    Package: 19 Lakh per Annum
+                </b></p>
+                <input type="button" value="Students Placed in Amazon" onclick="appear(3)">
+                <table id="ama" style="visibility:hidden;">
+                    <tr>
+                        <td>💠Nemo Chintalapudi</td>
+                        <td>💠Zenobia Adari</td>
+                        <td>💠Poseidon Dhara</td>
+                    </tr>
+                    <tr>
+                        <td>💠Azura Nadimpalli</td>
+                        <td>💠Scarlett Mattaparthi</td>
+                        <td>💠Devraj Guttikonda</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script>
+            function appear(a) {
+                if(a==1) {
+                    document.getElementById("inf").style.visibility="visible";
+                }
+                if(a==2) {
+                    document.getElementById("mic").style.visibility="visible";
+                }
+                if(a==3) {
+                    document.getElementById("ama").style.visibility="visible";
+                }
+            }
+        </script>
+    </body>

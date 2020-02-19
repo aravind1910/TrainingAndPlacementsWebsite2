@@ -1,0 +1,187 @@
+<html>
+    <head>
+
+        <title>17L31A0594 Login</title>
+        <style>
+            .header {
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            } 
+            table,tr,th {
+                border: solid black 1px;
+            }
+            .tab {
+                border-right: solid 2px blue;
+                border-left: solid 2px blue; 
+                border-bottom: solid 2px blue;
+                display: inline-block;
+                text-align: center;
+                width: 24%;
+                text-decoration: none;
+                margin: 1px 0px 1px 0px;
+                font-weight: bolder;
+                font-size:large;
+                color:blue;
+                border-radius: 3px;
+            }
+            .tab:hover {
+                background-color: dodgerblue;
+                transition: 0.2s ease-in;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="header" src="https://bit.ly/2SJ59PY" height="100">
+        <hr><hr>
+        <div>
+            <a class="tab" href="homepage.html">Home</a>
+            <a class="tab" href="login.html">Login</a>
+            <a class="tab" href="registration.html">Registration</a>
+            <a class="tab" href="company.html">Company Details</a>
+            <a class="tab" href="alumni.html">Alumni</a>
+            
+            <a class="tab" href="placements.html">Placements Staff</a>
+            <a class="tab" href="student.html">Student Personal Info</a>
+            <a class="tab" href="academic.html">Student Academic Info</a>
+            
+            
+            </div>
+        <div style=" padding: 30px;background-color:deepskyblue;border-radius: 10px; margin: auto; width: 60%; text-align:center">
+            <img  style=" margin-top: 10px; margin-bottom: 20px; height: 100px; width: 100px; border-radius: 50%; border: outset olivedrab 10px;" src="https://bit.ly/2SNDjjZ">
+            <h1 align="center" > Semester and Aggregate percentage</h1>
+            <table style="border-radius: 10px; margin: 30px auto 30px auto; background-color:aliceblue ; ">
+                <tr >
+                    <td colspan="4" align="center">Registration Number: <input type="text"></t>
+                </tr>
+                <tr>
+                    <th colspan="2">Semester 3.1</th>
+                    <th colspan="2">Semester 3.2</th>
+                </tr>
+                <tr>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <th>Compiler Design</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                    <th>Computer Networks</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th>Python Programming</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                    <th>Web Technologies</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th>Data Mining Techniques</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                    <th>Object Oriented Anaysis using UMl</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th>Design and Analysis of Algorithms</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                    <th>Artificial Intelligence</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th>Unix and Shell Programming</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                    <th>Robotics</th>
+                    <th><select>
+                        <option>O</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th>SGPA</th>
+                    <th><input type="number"></th>
+                    <th>SGPA</th>
+                    <th><input type="number"></th>
+                </tr>
+                <tr>
+                    <th colspan="2">Aggregate CGPA</th>
+                    <th colspan="2"><input type="number"></th>
+                </tr>
+                <tr>
+                    <th colspan="2">Aggregate Percentage</th>
+                    <th colspan="2"><input type="number">%</th>
+                </tr>
+            </table>
+        </div>
+        
+
+    </body>
+</html>

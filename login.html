@@ -1,0 +1,59 @@
+<html>
+    <head>
+
+        <title>17L31A0594 Login</title>
+        <style>
+            .header {
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            } 
+            .tab {
+                border-right: solid 2px blue;
+                border-left: solid 2px blue; 
+                border-bottom: solid 2px blue;
+                display: inline-block;
+                text-align: center;
+                width: 24%;
+                text-decoration: none;
+                margin: 1px 0px 1px 0px;
+                font-weight: bolder;
+                font-size:large;
+                color:deepskyblue;
+                border-radius: 3px;
+            }
+            .tab:hover {
+                background-color: dodgerblue;
+                transition: 0.2s ease-in;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="header" src="https://bit.ly/2SJ59PY" height="100">
+        <hr><hr>
+        <div>
+            <a class="tab" href="homepage.html">Home</a>
+            <a class="tab" href="registration.html">Registration</a>
+            <a class="tab" href="company.html">Company Details</a>
+            <a class="tab" href="alumni.html">Alumni</a>
+            
+            <a class="tab" href="placements.html">Placements Staff</a>
+            <a class="tab" href="student.html">Student Personal Info</a>
+            <a class="tab" href="academic.html">Student Academic Info</a>
+            <a class="tab" href="percentage.html">Semester and Aggregate Percentage</a>
+            
+            </div>
+        <h1 align="center">Login</h1>
+        <div style="background-color:deepskyblue; width: 50%; margin: auto; padding: 10px; border-radius: 20px;">
+            <form name="form" method="POST" onsubmit="validate()" style="padding-left: 30%;">
+                Username: <input type="text" name="user" ><br><br>
+                Password : <input type="password" name="password"><br><br>
+                <input type="submit" value="Login" style="margin-left:30%;"><br>
+            </form>
+        </div>
+        
+        
+
+    </body>
+</html>

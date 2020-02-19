@@ -1,0 +1,73 @@
+<html>
+    <head>
+
+        <title>17L31A0594 Login</title>
+        <style>
+            .header {
+                margin-left: auto;
+                margin-right: auto;
+                width: 100%;
+            } 
+            form {
+                margin: 0 auto;
+                width: 30%;
+                padding: 10px 0 10px 15% ;
+                background-color: deepskyblue;
+                border-radius: 20px;
+            }
+            .tab {
+                border-right: solid 2px blue;
+                border-left: solid 2px blue; 
+                border-bottom: solid 2px blue;
+                display: inline-block;
+                text-align: center;
+                width: 24%;
+                text-decoration: none;
+                margin: 1px 0px 1px 0px;
+                font-weight: bolder;
+                font-size:large;
+                color:blue;
+                border-radius: 3px;
+            }
+            .tab:hover {
+                background-color: dodgerblue;
+                transition: 0.2s ease-in;
+                border-radius: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="header" src="https://bit.ly/2SJ59PY" height="100">
+        <hr><hr>
+        <div>
+            <a class="tab" href="homepage.html">Home</a>
+            <a class="tab" href="login.html">Login</a>
+            
+            <a class="tab" href="company.html">Company Details</a>
+            <a class="tab" href="alumni.html">Alumni</a>
+            
+            <a class="tab" href="placements.html">Placements Staff</a>
+            <a class="tab" href="student.html">Student Personal Info</a>
+            <a class="tab" href="academic.html">Student Academic Info</a>
+            <a class="tab" href="percentage.html">Semester and Aggregate Percentage</a>
+            
+            </div>
+        <h1 align="center">Registration</h1>
+        <form class="form" name="form" method="POST" onsubmit="validate()">
+            Full Name:<br>
+            <input type="text" name="name"><br>
+            Registration Number: <br>
+            <input type="text" name="regd"><br>
+            Email: <br>
+            <input type="email" name="email"><br>
+            Contact: <br>
+            <input type="tel" name="contact"><br>
+            Password: <br>
+            <input type="password" name="pass1"><br>
+            Confirm Password: <br>
+            <input type="password" name="pass2"><br><br>
+            <input type="submit" value="Register">
+        </form>
+        
+    </body>
+</html>
